@@ -23,3 +23,7 @@ console.log(newDate.getMonth() + 1); // in Javascript month start is 0.
 console.log(newDate.getDate());
 
 // ` ${newDate.getDate()} and the month is ${newDate.getMonth()}`
+
+newDate.toLocaleString('default', {
+    weekday: "long"
+})
